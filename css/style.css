@@ -3,7 +3,49 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    font-weight: 300;
+    font-weight: 400;
     list-style: none;
     text-decoration: none;
+}
+a{
+    color: #2b2b2b;
+}
+a:hover{
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+.header{
+    background-color:darkslategray;
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+}
+.container{
+    display: flex;
+}
+.nav-bar{
+    width: 30%;
+    background-color: #efefef;
+    padding: 30px;
+}
+.nav-bar ul li {
+    margin-bottom: 5px;
+}
+.content{
+    width: 70%;
+    padding: 30px;
+}
+.content p, h1{
+    margin-bottom: 15px;
+}
+.footer{
+    background-color:darkslategray;
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+}
+
+.img-quem-somos{
+    width: 300px;
 }
